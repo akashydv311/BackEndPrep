@@ -5,7 +5,7 @@ public class Tester {
 		
 		String currJavaRuntime = System.getProperty("java.runtime.version");
 		
-		System.out.println("Current Java Runtime Version is: "+currJavaRuntime);
+		System.out.println("Current Java Runtime Version is: "+ currJavaRuntime);
 		
 		
 	}
