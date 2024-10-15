@@ -1,0 +1,64 @@
+
+In the 90's people think that we should use OOP
+
+Programming Langudge
+
+B -> C = C has a function based approach called POP
+
+POP = Procedure Oriented Programming
+
+OOP = Object Oriented Programming
+
+C with Classes -> C++
+
+Object -> Entity, real life object
+(Instance = Object)
+
+Class -> Blueprint 
+class is a blueprint of an any object
+
+
+------------------------------------------------------------
+
+Java Arck
+
+
+JDK -> Java Development Kit
+JRE -> Java Runtime Environment
+
+(JRE Consist of JVM+Java library class & tools)
+
+class loader -> static
+
+
+Runtime Data Area
+Method Area,  Heap Area,  Stack, PC Register,   Native Method Area
+	|			  |		    |			|				 |
+method state	Object	 methods  address,instructions	native methods
+	|
+Execution Engine
+	|
+interpiter,JIT compiler, GB
+
+
+local variable and instance variable
+1. if variable define in class it's called instance variable
+   if variable define in method it's called local variable
+2. local variable must have init
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
