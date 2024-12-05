@@ -21,6 +21,16 @@ public class BufferAndBuilder {
 		
 		
 		
+		// For Memory Management
+		
+//		String s = "Infosys";
+		
+//		This string is created in string pool area and s is in stack area pointing to SCP
+		
+//		STRING CONSTANT POOL is also a part of HEAP AREA only
+		
+//		Garbage collection of the String Constant Pool may or may not occur, depending on the JVM implementation and memory pressure.
+		
 		
 		
 	}

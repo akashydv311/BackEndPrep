@@ -50,11 +50,27 @@ public class MethodsOfMutableString {
 		System.out.println(sbz.capacity());
 		System.out.println(sbz.length());
 		
-		sbz.insert(sbz.length(), "aksfhlaksdsdsdsddsdfhsdjdhfkejlkjkhgffksdkvbmxb");
+		sbz.insert(sbz.length(), "infosys service based compney that support IT services");
 		System.out.println(sbz);
 		
 		System.out.println(sbz.capacity());
 		System.out.println(sbz.length());
+		
+		System.out.println("\n\n---------------------------------");
+		
+		sbz.delete(0,8);
+		System.out.println(sbz);
+		System.out.println(sbz.length());
+		
+		sbz.reverse();
+		System.out.println(sbz);
+		
+		// It is possible to reduce the length of the string at run time
+		
+		sbz.setLength(20);
+		System.out.println(sbz);
+		System.out.println(sbz.length());
+		
 		
 		
 	}
