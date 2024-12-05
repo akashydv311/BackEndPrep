@@ -23,5 +23,7 @@ public class MutableStringLength {
 		sb.trimToSize();
 		System.out.println(sb.capacity());
 		
+		
+		
 	}
 }
