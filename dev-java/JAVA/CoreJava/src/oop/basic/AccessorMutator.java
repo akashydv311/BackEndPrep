@@ -20,7 +20,11 @@ class Person{
 		this.name = name;
 	}
 	public void setAge(int age) {
-		this.age = age;
+		if(age>0)
+			this.age = age;
+		else {
+			System.out.println("Age must be positive");
+		}
 	}
 	public void setGender(char gender) {
 		this.gender = gender;
@@ -41,6 +45,7 @@ class Person{
 public class AccessorMutator {
 	public static void main(String[] args) {
 		
+		// creating object
 		Person p1 = new Person("Akash Yadav", 23, 'M');
 		String personName = p1.getName();
 		int personAge = p1.getAge();
