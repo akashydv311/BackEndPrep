@@ -1,0 +1,14 @@
+
+	Arrays in java
+	--------------
+	
+	int arr[] -> arr is an refrence of an array object
+	
+	question- can we seen the class of an array object (NO)
+	
+	Normaly we create a object like
+	
+	String str = new String();
+	
+	answer- In java array class in an special class so we can't see the source code of array
+	
